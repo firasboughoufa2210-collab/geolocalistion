@@ -21,6 +21,7 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping ("/api")
+@CrossOrigin(origins = "http://localhost:4200") // autorise Angular
 
 public class IOTController {
     @Autowired
